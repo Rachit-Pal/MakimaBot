@@ -7,9 +7,8 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.8-green?style=for-the-badge&logo=appveyor)
 ![Issues](https://img.shields.io/github/issues/Rachit-Pal/MakimaBot?style=for-the-badge&logo=appveyor)
-![Forks](https://img.shields.io/github/forks/Rachit-Pal/MakimaBot?style=for-the-badge&logo=appveyor)
-![Stars](https://img.shields.io/github/stars/Rachit-Pal/MakimaBot?style=for-the-badge&logo=appveyor)
-![LICENSE](https://img.shields.io/github/license/Rachit-Pal/MakimaBot?style=for-the-badge&logo=appveyor)
+![Forks](https://img.shields.io/github/forks/Rachit-Pal/NekoRobot-3?style=for-the-badge&logo=appveyor)
+![Stars](https://img.shields.io/github/stars/Rachit-Pal/NekoRobot-3?style=for-the-badge&logo=appveyor)
 ![Repository Size](https://img.shields.io/github/repo-size/Rachit-Pal/MakimaBot?style=for-the-badge&logo=appveyor)</br>
 
 

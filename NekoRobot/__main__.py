@@ -2,8 +2,8 @@
 BSD 2-Clause License
 
 Copyright (C) 2017-2019, Paul Larsen
-Copyright (C) 2022-2023, Awesome-Prince, [ https://github.com/Awesome-Prince ]
-Copyright (c) 2022-2023, BlackLover • Network, [ https://github.com/Awesome-Prince/NekoRobot-3 ]
+Copyright (C) 2022-2069, Rachit-Pal, [ https://github.com/Rachit-Pal ]
+Copyright (c) 2022-2069, BlackLover • Network, [ https://github.com/Rachit-Pal ]
 
 All rights reserved.
 
@@ -112,7 +112,7 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/4bf4b16a4e561dac5ad62.jpg) 」────
+────「 [{}](https://i.imgur.com/nsymNdD.jpg) 」────
 *Hola! {},*
 *I am an Anime Themed Advance Group Management Bot With Lot Of Sexy Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -131,9 +131,9 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-        InlineKeyboardButton(text="❔ Chit Chat", url="https://telegram.dog/Besties_XD"),
+        InlineKeyboardButton(text="🧾 Quick setup", url="https://t.me/SaitamaBotUpdate/6"),
         InlineKeyboardButton(
-            text="[► Repo ◄]", url="https://github.com/Awesome-Prince/NekoRobot-3"
+            text="[► Repo ◄]", url="https://github.com/Rachit-Pal/"
         ),
     ],
     [
@@ -141,29 +141,26 @@ buttons = [
             text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/BlackLover_Support"
+            text="🔔 Updates", url="https://telegram.dog/SaitamaBotUpdate"
         ),
     ],
 ]
 
 HELP_STRINGS = """
-*Main* commands available:
-➛ /help: PM's you this message.
-➛ /help <module name>: PM's you info about that module.
-➛ /donate: information on how to donate!
-➛ /settings:
-   ➛ in PM: will send you your settings for all supported modules.
-   ➛ in a group: will redirect you to pm, with all that chat's settings.
+🎛 *Main commands available:* \n
+➥ /help: PM's you this message.
+➥ /help <module name>: PM's you info about that module.
+➥ /donate: information on how to donate!
+➥ /settings:
+    ➥ in PM: will send you your settings for all supported modules.
+    ➥ in a group: will redirect you to pm, with all that chat's settings.
 """
 
 GROUP_START_IMG = (
-    "https://telegra.ph/file/6f6e36088ce15a189c400.mp4",
-    "https://telegra.ph/file/0cea56d9625f265ecc9db.mp4",
-    "https://telegra.ph/file/a131993b0f1e8517eacb2.mp4",
-    "https://telegra.ph/file/6f43ded36dba5f256bba7.mp4",
-    "https://telegra.ph/file/61acd313cc536bd1c6217.mp4",
-    "https://telegra.ph/file/f329cdd740c55bf955deb.mp4",
-    "https://telegra.ph/file/4ace6e89c3b1d3a08e943.mp4",
+    "https://i.imgur.com/nLhyOSm.mp4",
+    "https://i.imgur.com/O8lDpSk.mp4",
+    "https://i.imgur.com/azo7csX.mp4",
+    "https://i.imgur.com/4oF36rO.mp4",
 )
 
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
@@ -303,8 +300,8 @@ def start(update: Update, context: CallbackContext):
                             url=f"https://telegram.dog/{SUPPORT_CHAT}",
                         ),
                         InlineKeyboardButton(
-                            text="📢 Updates",
-                            url="https://telegram.dog/BlackLover_Updates",
+                            text="🔔 Updates",
+                            url="https://telegram.dog/SaitamaBotUpdate",
                         ),
                     ]
                 ]
@@ -660,13 +657,13 @@ def donate(update: Update, context: CallbackContext) -> None:
             )
 
             update.effective_message.reply_text(
-                text="I'm free for everyone❤️\njust donate by subs channel, Don't forget to join the support group.",
+                text="I'm free for everyone❤️\njust donate by subscribing the [channel](https://t.me/SaitamaBotUpdate), Don't forget to join the support group.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="📢 Updates",
-                                url="https://telegram.dog/BlackLover_Updates",
+                                text="🔔 Updates",
+                                url="https://telegram.dog/SaitamaBotUpdate",
                             ),
                             InlineKeyboardButton(
                                 text="🚑 Support",

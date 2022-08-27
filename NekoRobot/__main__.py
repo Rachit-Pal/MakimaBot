@@ -114,7 +114,7 @@ START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 PM_START_TEXT = """
 ────「 [{}](https://i.imgur.com/nsymNdD.jpg) 」────
 *Hola! {},*
-*I am an Anime Themed Advance Group Management Bot With Lot Of Sexy Features.*
+*I am an Anime Themed Advance Group Management Bot With Lot Of Advance Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
